@@ -1,0 +1,6 @@
+RewriteEngine on
+
+# URL Rewriting
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/ajax
+RewriteRule ^(.*)$ index.php [QSA,L]

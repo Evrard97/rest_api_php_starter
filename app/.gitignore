@@ -1,0 +1,10 @@
+# Config
+config/env.php
+# config/*_config.php
+
+# Composer
+vendor/
+composer.lock
+
+# Misc
+phpinfo.php
